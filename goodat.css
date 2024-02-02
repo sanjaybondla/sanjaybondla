@@ -1,0 +1,67 @@
+body{
+    animation: colorchange 5s infinite;
+   }
+   @keyframes colorchange {
+     0%{
+       background-color: white;
+     }
+     50%{
+       background-color: black;
+     }
+     100%{
+       background-color: white;
+     }
+       
+     }
+   .nav{
+       padding: 10px;
+       text-align: end;
+       word-spacing: 20px;
+       font-size: large;
+       cursor: pointer;
+   }
+.Proficient{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ padding: 10px;
+}
+.prof{
+font-family: 'Caveat', cursive;
+padding-left: 20px;
+font-size: 40px;
+padding: 20px;
+}
+.designer{
+    border: solid;
+    border-color: black;
+    background: linear-gradient(30deg,rgb(19, 194, 65),rgba(241, 241, 241, 0.999));
+    padding: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+.webdesign{
+    border: solid;
+    border-color: black;
+    background: linear-gradient(30deg,rgba(241, 241, 241, 0.999),rgb(19, 194, 65));
+    padding: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+.sub{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+     }
+     .background{
+        width: 100%;
+     max-width: 1100px;
+     background-color: white;
+     margin: 100px auto 0;
+     border-radius: 30px;
+     padding: 40px 35px;
+     height: 500px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     }

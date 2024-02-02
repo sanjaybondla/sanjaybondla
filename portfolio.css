@@ -1,0 +1,282 @@
+body{
+ animation: colorchange 10s infinite;
+}
+@keyframes colorchange {
+  0%{
+    background-color: white;
+  }
+  50%{
+    background-color: black;
+  }
+  100%{
+    background-color: white;
+  }
+    
+  }
+.border{
+ width: 100%;
+ max-width: 1100px;
+ background-image: url(second.gif);
+ margin: 100px auto 0;
+ border-radius: 30px;
+ padding: 40px 35px;
+ height: 500px;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.nav{
+    padding: 10px;
+    text-align: end;
+    word-spacing: 20px;
+    font-size: large;
+    cursor: pointer;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-family: 'Caveat', cursive;
+}
+.dev{
+    animation: fadeInout 5s infinite;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+@keyframes fadeInout {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.logos{
+    word-spacing: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     
+ }
+ .icon{
+     margin: 0 30px;
+ }
+ .image{
+     justify-content: center;
+     display: flex;
+ }
+ .scroll{
+     text-align: center;
+     font-size: 20px;
+ }
+ .scrollbutton{
+     animation: bounce 3s infinite;
+     padding-top: 50px;
+ }
+      @keyframes bounce {
+         0%, 20%, 50%, 80%, 100% {
+           transform: translateY(0);
+         }
+         40% {
+           transform: translateY(-20px);
+         }
+         60% {
+           transform: translateY(-10px);
+         }
+       }
+ .designer{
+     border: solid;
+     border-color: black;
+     background: linear-gradient(30deg,rgb(19, 194, 65),rgba(241, 241, 241, 0.999));
+     padding: 30px;
+     border-radius: 50px;
+     font-size: 20px;
+   }
+ .webdesign{
+     border: solid;
+     border-color: black;
+     background: linear-gradient(30deg,rgba(241, 241, 241, 0.999),rgb(19, 194, 65));
+     padding: 30px;
+     border-radius: 50px;
+     font-size: 20px;
+   }
+ .sub{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       
+ 
+      }
+      .Proficient{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+       padding: 10px;
+      }
+ .prof{
+   font-family: 'Caveat', cursive;
+   padding-left: 20px;
+   font-size: 40px;
+   padding: 20px;
+ }
+ .background{
+    width: 100%;
+ max-width: 1100px;
+ background-color: white;
+ margin: 100px auto 0;
+ border-radius: 30px;
+ padding: 40px 35px;
+ height: 500px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ .secbg{
+    width: 100%;
+    max-width: 1100px;
+    margin: 100px auto 0;
+    border-radius: 30px;
+    padding: 40px 35px;
+    height: 500px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
+ .info{
+    font-family: 'Caveat', cursive;
+    padding-left: 40px;
+    font-size: 40px;
+    
+ }
+ .set{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+ }
+ .bio{
+  padding-left: 200px;
+ }
+ .myphoto{
+  
+  padding-top: 50px;
+  padding-left: 150px;
+ }
+ .basic{
+  font-family: sans-serif;
+  font-size: medium;
+ }
+ .para{
+  font-family: sans-serif;
+  font-size: medium;
+ }
+ .skillsbg{
+  width: 100%;
+  max-width: 1100px;
+  margin: 100px auto 0;
+  border-radius: 30px;
+  padding: 40px 35px;
+  height: 500px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .skillsmain{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+ .heading{
+  font-family: 'Caveat', cursive;
+    font-size: 40px;
+ }
+ .htmlflex{
+  display: flex;
+  flex-direction: row;
+ }
+ .cssflex{
+  display: flex;
+  flex-direction: row;
+ }
+ .jsflex{
+  display: flex;
+  flex-direction: row;
+ }
+ .bsflex{
+  display: flex;
+  flex-direction: row;
+ }
+ .textfile{
+  font-family: sans-serif;
+  font-size: large;
+  padding-left: 30px;
+}
+.contactbg{
+  width: 100%;
+  max-width: 1100px;
+  margin: 100px auto 0;
+  border-radius: 30px;
+  padding: 40px 35px;
+  height: 500px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contacthead{
+  font-family: 'Caveat', cursive;
+  padding-top: 10px;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.contactme{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  flex-direction: row;
+}
+.contactip{
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.textarea{
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.button{
+  padding-left: 500px;
+}
+.contactip{
+  border: 2px solid rgb(21, 24, 28);
+}
+.submitbutton{
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-weight: 300;
+}

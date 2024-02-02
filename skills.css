@@ -1,0 +1,64 @@
+body{
+    animation: colorchange 5s infinite;
+   }
+   @keyframes colorchange {
+     0%{
+       background-color: white;
+     }
+     50%{
+       background-color: black;
+     }
+     100%{
+       background-color: white;
+     }
+       
+     }
+     .nav{
+        padding: 10px;
+        text-align: end;
+        word-spacing: 20px;
+        font-size: large;
+        cursor: pointer;
+    }
+     .skillsbg{
+        width: 100%;
+        max-width: 1100px;
+        margin: 100px auto 0;
+        border-radius: 30px;
+        padding: 40px 35px;
+        height: 500px;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+       }
+       .skillsmain{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       }
+       .heading{
+        font-family: 'Caveat', cursive;
+          font-size: 40px;
+       }
+       .htmlflex{
+        display: flex;
+        flex-direction: row;
+       }
+       .cssflex{
+        display: flex;
+        flex-direction: row;
+       }
+       .jsflex{
+        display: flex;
+        flex-direction: row;
+       }
+       .bsflex{
+        display: flex;
+        flex-direction: row;
+       }
+       .textfile{
+        font-family: sans-serif;
+        font-size: large;
+        padding-left: 30px;
+      }
